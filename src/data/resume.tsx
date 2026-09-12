@@ -72,14 +72,14 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/",
+        url: "https://github.com/yashdesigns",
         icon: Icons.github,
         navbar: true,
       },
 
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/",
+        url: "https://www.linkedin.com/in/yash-cisco/",
         icon: Icons.linkedin,
         navbar: true,
       },
@@ -272,7 +272,7 @@ export const DATA = {
     },
   ],
 
-  testimonials: [],
+  testimonials: [] as { quote: string; author: string }[],
 
   hackathons: [],
 } as const;
