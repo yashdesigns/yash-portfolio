@@ -47,7 +47,7 @@ const PrivacyPolicy: React.FC = () => {
       <p className="mb-4">
         If you have any questions or concerns about this privacy policy, please contact us at:
         <br />
-        <strong>Email:</strong> rrsrrsrajeev@gmail.com
+        <strong>Email:</strong> yashg7842@gmail.com
       </p>
 
       <p className="text-sm text-gray-500 mt-6">

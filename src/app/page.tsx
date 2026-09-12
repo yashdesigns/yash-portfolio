@@ -79,8 +79,8 @@ export default function Page() {
                       </linearGradient>
                     </defs>
                   </svg>
-                  <Icon 
-                    icon="fluent:hand-wave-24-filled" 
+                  <Icon
+                    icon="fluent:hand-wave-24-filled"
                     className="size-8 sm:size-12 xl:size-14 inline-block select-none overflow-visible"
                     style={{ fill: "url(#neonHandGrad)" }}
                   />
@@ -100,8 +100,8 @@ export default function Page() {
               </div>
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
-              <Avatar className="size-36 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+              <Avatar className="size-48 border">
+                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} className="object-top" />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
@@ -241,13 +241,13 @@ export default function Page() {
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">Get in Touch</h2>
               <div className="mx-auto max-w-[600px] text-muted-foreground space-y-4 text-base md:text-xl">
                 <p>
-                  📞 Call: <a href="tel:+918541849528" className="text-blue-500 hover:underline">+91 85418 49528</a>
+                  📞 Call: <a href="tel:+918765650878" className="text-blue-500 hover:underline">+91 87656 50878</a>
                 </p>
                 <p>
-                  💬 WhatsApp: <a href="https://wa.me/918541849528" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Message on WhatsApp</a>
+                  💬 WhatsApp: <a href="https://wa.me/918765650878" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">Message on WhatsApp</a>
                 </p>
                 <p>
-                  📧 Email: <a href="mailto:rrsrrsrajeev@gmail.com" className="text-blue-500 hover:underline">rrsrrsrajeev@gmail.com</a>
+                  📧 Email: <a href="mailto:yashg7842@gmail.com" className="text-blue-500 hover:underline">yashg7842@gmail.com</a>
                 </p>
               </div>
               <div className="mt-6">

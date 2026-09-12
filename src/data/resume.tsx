@@ -20,7 +20,6 @@ export const DATA = {
     // Backend - Primary
     { title: "Java", icon: "logos:java" },
     { title: "Spring Boot", icon: "logos:spring-icon" },
-    { title: "Spring Security", icon: "logos:spring-icon" },
     { title: "Microservices", icon: "logos:spring-icon" },
     { title: "REST APIs", icon: "mdi:api" },
     { title: "Hibernate", icon: "logos:hibernate" },
@@ -32,10 +31,8 @@ export const DATA = {
     { title: "OAuth2", icon: "material-symbols:security" },
 
     // Testing
-    { title: "JUnit", icon: "logos:junit" },
     { title: "Mockito", icon: "logos:java" },
     { title: "Jest", icon: "logos:jest" },
-    { title: "Karate", icon: "mdi:test-tube" },
 
     // Frontend
     { title: "Next.js", icon: "logos:nextjs" },
@@ -55,9 +52,7 @@ export const DATA = {
     { title: "Docker", icon: "logos:docker-icon" },
     { title: "Kubernetes", icon: "logos:kubernetes" },
     { title: "Jenkins", icon: "skill-icons:jenkins-light" },
-    { title: "GitHub Actions", icon: "logos:github-actions" },
     { title: "Cloud Build", icon: "logos:google-cloud" },
-    { title: "Terraform", icon: "logos:terraform" },
     { title: "Git", icon: "logos:git-icon" },
   ],
 
@@ -67,8 +62,8 @@ export const DATA = {
   ],
 
   contact: {
-    email: "your-email@example.com",
-    tel: "",
+    email: "yashg7842@gmail.com",
+    tel: "+918765650878",
     social: {
       GitHub: {
         name: "GitHub",
@@ -93,7 +88,7 @@ export const DATA = {
 
       email: {
         name: "Send Email",
-        url: "mailto:your-email@example.com",
+        url: "mailto:yashg7842@gmail.com",
         icon: Icons.email,
         navbar: false,
       },
@@ -102,177 +97,241 @@ export const DATA = {
 
   work: [
     {
-      company: "Houshout Technologies",
+      company: "Hashout Technologies",
       href: "#",
-      title: "Java Full Stack Developer",
+      title: "Java Full Stack Developer (Client: Cloud Software Group)",
       location: "Bangalore, India",
       start: "May 2026",
       end: "Present",
-      logoUrl: "/logos/houshout.svg",
-
+      logoUrl: "/logos/hashout.png",
       description:
-        "Developing enterprise-grade Java and Spring Boot microservices for Cloud Software Group, focusing primarily on backend engineering, REST API development, business workflows, security, database integration and cloud-native deployment. Working across the application lifecycle with Docker, Kubernetes, CI/CD and GCP, while building Next.js and TypeScript frontend features integrated with backend services.",
+        "Developing scalable Java, Spring Boot and REST-based microservices for enterprise licensing platforms. Implemented business workflows, Next.js features, and worked with Apache Kafka/RabbitMQ. Handled CI/CD automation in GCP and PostgreSQL databases.",
     },
-
     {
-      company: "Societe Generale",
+      company: "Ekaggata Technologies",
+      href: "#",
+      title: "Software Engineer (Client: Societe Generale)",
+      location: "Bangalore, India",
+      start: "Jan 2024",
+      end: "May 2026",
+      logoUrl: "/logos/ekaggata.png",
+      description:
+        "Integrated third-party APIs and RabbitMQ. Optimized PostgreSQL schemas, leveraged TDD with Jest and Cypress. Implemented Micro-frontend architecture with React, reducing load times by 40%, and refactored code modules reducing codebase size significantly.",
+    },
+    {
+      company: "Cisco Systems India",
       href: "#",
       title: "Software Engineer",
       location: "Bangalore, India",
-      start: "",
-      end: "",
-      logoUrl: "/logos/societe-generale.svg",
-
+      start: "Oct 2022",
+      end: "Oct 2023",
+      logoUrl: "/logos/cisco.png",
       description:
-        "Developed and maintained Java and Spring Boot based enterprise applications and microservices. Worked on REST APIs, database integrations, backend business logic, event-driven workflows, automated testing and CI/CD processes while collaborating with cross-functional teams in an Agile environment.",
+        "Reduced network latency by eliminating redundant calls, enhancing performance by 25%. Eliminated 80% of NPM warnings via code refactoring. Streamlined REST API endpoints using Spring Boot, implementing a comprehensive health check feature decreasing downtime.",
+    },
+    {
+      company: "Monotype Solutions India",
+      href: "#",
+      title: "Software Engineer Trainee",
+      location: "Noida, India",
+      start: "Mar 2022",
+      end: "Sept 2022",
+      logoUrl: "/logos/monotype.png",
+      description:
+        "Developed missing font functionality using C++ for Adobe Acrobat DC. Used Chrome DevTools for profiling and unit testing using Jest. Established CI/CD pipelines in Jenkins for automated AWS deployment.",
     },
   ],
 
   education: [
     {
-      school: "",
-      href: "",
-      degree: "",
-      logoUrl: "",
-      start: "",
-      end: "",
+      school: "JK Institute of Applied Physics and technology, University of Allahabad",
+      href: "#",
+      degree: "B. Tech(Computer Science and Engineering) - 8.78 CGPA",
+      logoUrl: "/logos/allahabad-university.png",
+      start: "July 2018",
+      end: "June 2022",
     },
   ],
 
   projects: [
     {
+      title: "Enterprise Identity & API Gateway Platform",
+      href: "#",
+      dates: "Recent Project",
+      active: true,
+      description:
+        "Architected and implemented a secure, end-to-end authentication and API gateway architecture. Built an OIDC-based sign-in flow integrating a custom Identity Provider (PureAuth) and Google SSO. Developed a robust Wrapper API edge layer with a comprehensive security filter chain encompassing CORS, distributed tracing (Correlation ID), rate limiting, and Redis-backed JWT token denylists. Secured downstream internal microservices (Core API) via strict JWT signature validation and RBAC authorization, orchestrating data access across Redis, Oracle DB, and PostgreSQL.",
+      technologies: [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "Microservices",
+        "API Gateway",
+        "JWT",
+        "OIDC",
+        "Redis",
+        "PostgreSQL",
+        "Oracle DB",
+        "SSO",
+        "Distributed Tracing",
+      ],
+      links: [],
+      image: "",
+      video: "",
+    },
+    {
       title: "Enterprise Licensing & Entitlement Platform",
       href: "#",
       dates: "May 2026 - Present",
       active: true,
-
       description:
-        "Enterprise platform for managing software licensing, entitlements, releases and software downloads. Developed backend microservices using Java and Spring Boot, implementing REST APIs, request validation, JWT-based authentication and authorization, entitlement validation and release-based business workflows. Integrated PostgreSQL-based persistence and asynchronous service communication while supporting containerized deployment through Docker and Kubernetes.",
-
+        "Engineered a comprehensive Enterprise Licensing & Entitlement backend utilizing Java and Spring Boot. Implemented a robust license generation and validation engine using cryptographic JWT signing with a multi-tiered PKI certificate hierarchy (Root, Intermediate, Leaf). Developed complex certificate rotation workflows, including fallback validation for active legacy certificates and overlap strategies for root thumbprints to ensure zero downtime. Designed PostgreSQL and Oracle database schemas for tracking entitlements, asset components, license lifecycles, telemetry enrollment, and comprehensive audit logging. Integrated a two-phase license validation process involving both cryptographic signature checks (SHA1/SHA256) and internal database consistency verification, along with a dynamic, database-driven generalized alert system.",
       technologies: [
         "Java",
         "Spring Boot",
         "Microservices",
-        "REST APIs",
-        "Spring Security",
-        "JWT",
-        "Hibernate/JPA",
+        "PKI & Certificate Management",
+        "Cryptography (JWT, JWKS)",
         "PostgreSQL",
-        "RabbitMQ",
-        "Docker",
-        "Kubernetes",
-        "GCP",
-        "GitHub Actions",
-        "Jenkins",
-        "Next.js",
-        "TypeScript",
-      ],
-
-      links: [],
-      image: "/projects/licensing-platform.svg",
-      video: "",
-    },
-
-    {
-      title: "NeedForAction / Workflow Platform",
-      href: "#",
-      dates: "Enterprise Project",
-      active: true,
-
-      description:
-        "Developed backend microservices for workflow and action-management capabilities using Java and Spring Boot. Implemented event-driven communication, REST APIs, validation, authentication and authorization, database operations and synchronization workflows. Built frontend functionality using Next.js and TypeScript and integrated it with backend microservices.",
-
-      technologies: [
-        "Java",
-        "Spring Boot",
-        "Microservices",
+        "Oracle DB",
+        "Caching",
+        "Telemetry",
         "REST APIs",
-        "RabbitMQ",
-        "PostgreSQL",
-        "Hibernate",
-        "JWT",
-        "Next.js",
-        "TypeScript",
-        "Redux",
-        "Docker",
-        "Kubernetes",
-        "GitHub Actions",
       ],
-
       links: [],
-      image: "/projects/workflow-platform.svg",
-      video: "",
-    },
-
-    {
-      title: "Dynamic Data & Regulatory Management",
-      href: "#",
-      dates: "Enterprise Project",
-      active: true,
-
-      description:
-        "Implemented backend services for dynamic data retrieval, filtering and regulatory data management using Java, Spring Boot and PostgreSQL. Worked on dynamic query generation, database updates, validation, data import workflows and synchronization of regulatory information while maintaining scalable REST-based service architecture.",
-
-      technologies: [
-        "Java",
-        "Spring Boot",
-        "REST APIs",
-        "PostgreSQL",
-        "SQL",
-        "Hibernate/JPA",
-        "Microservices",
-        "TypeScript",
-        "Next.js",
-        "Jest",
-      ],
-
-      links: [],
-      image: "/projects/data-platform.svg",
-      video: "",
-    },
-
-    {
-      title: "AI Chat Assistant",
-      href: "#",
-      dates: "Personal Project",
-      active: true,
-
-      description:
-        "A full-stack AI assistant application focused on conversational interactions, backend API integration and retrieval-augmented workflows. The application combines a modern Next.js frontend with backend services and AI integrations for real-time conversational experiences.",
-
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "REST APIs",
-        "RAG",
-        "Python",
-        "Gemini API",
-        "Tailwind CSS",
-        "Socket.io",
-      ],
-
-      links: [],
-      image: "/projects/ai-chatbot.svg",
+      image: "",
       video: "",
     },
   ],
 
   certifications: [
     {
-      title: "Java / Spring Boot Development",
-      issuer: "",
+      title: "Advanced Python",
+      issuer: "LinkedIn",
+      period: "Apr 2023",
+      credentialId: "",
+      href: "https://www.linkedin.com/learning/certificates/b23b29d9ee90c60d278f96b3af3bcd08b01698ae5ac30ae698933bdbdb8706e9/",
+      logoUrl: "/logos/linkedin.png",
+      description: "",
+    },
+    {
+      title: "Python Training Certification Course",
+      issuer: "Simplilearn",
+      period: "Mar 2023",
+      credentialId: "",
+      href: "https://certificates.simplicdn.net/share/4261187.pdf",
+      logoUrl: "/logos/simplilearn.png",
+      description: "",
+    },
+    {
+      title: "Full Stack Java Developer Capstone Project",
+      issuer: "Simplilearn",
+      period: "Mar 2023",
+      credentialId: "",
+      href: "https://certificates.simplicdn.net/share/4207339.pdf",
+      logoUrl: "/logos/simplilearn.png",
+      description: "",
+    },
+    {
+      title: "Testing in a DevOps Lifecycle",
+      issuer: "Simplilearn",
+      period: "Mar 2023",
+      credentialId: "",
+      href: "https://certificates.simplicdn.net/share/4196805.pdf",
+      logoUrl: "/logos/simplilearn.png",
+      description: "",
+    },
+    {
+      title: "Develop a Web Application using frontend stack",
+      issuer: "Simplilearn",
+      period: "Feb 2023",
+      credentialId: "",
+      href: "https://certificates.simplicdn.net/share/4192771.pdf",
+      logoUrl: "/logos/simplilearn.png",
+      description: "",
+    },
+    {
+      title: "Implement Frameworks the DevOps way",
+      issuer: "Simplilearn",
+      period: "Jan 2023",
+      credentialId: "",
+      href: "https://certificates.simplicdn.net/share/4135212.pdf",
+      logoUrl: "/logos/simplilearn.png",
+      description: "",
+    },
+    {
+      title: "Scala & Functional Programming Essentials | Rock the JVM",
+      issuer: "Udemy",
+      period: "Jan 2023",
+      credentialId: "UC-65f37169-a4fe-4c49-92fe-2a06cfcfe7f6",
+      href: "http://www.ude.my/UC-65f37169-a4fe-4c49-92fe-2a06cfcfe7f6",
+      logoUrl: "/logos/udemy.png",
+      description: "",
+    },
+    {
+      title: "Become a back-end expert",
+      issuer: "Simplilearn",
+      period: "Jan 2023",
+      credentialId: "4095027",
+      href: "https://certificates.simplicdn.net/share/4095027.pdf",
+      logoUrl: "/logos/simplilearn.png",
+      description: "",
+    },
+    {
+      title: "Implement OOPS using JAVA with Data Structures and Beyond",
+      issuer: "Simplilearn",
+      period: "Dec 2022",
+      credentialId: "4051114",
+      href: "https://certificates.simplicdn.net/share/4051114.pdf",
+      logoUrl: "/logos/simplilearn.png",
+      description: "",
+    },
+    {
+      title: "Machine Learning",
+      issuer: "DevTown",
+      period: "Oct 2022",
+      credentialId: "",
+      href: "https://cert.devtown.in/verify/1h4lpm",
+      logoUrl: "/logos/devtown.png",
+      description: "",
+    },
+    {
+      title: "JavaScript (Basic)",
+      issuer: "HackerRank",
       period: "",
       credentialId: "",
-      href: "",
-      logoUrl: "",
-      description:
-        "Java, Spring Boot, REST APIs, Microservices and backend development",
+      href: "https://www.hackerrank.com/certificates/ab129c6af001",
+      logoUrl: "/logos/hackerrank.png",
+      description: "",
+    },
+    {
+      title: "Problem Solving (Basic)",
+      issuer: "HackerRank",
+      period: "",
+      credentialId: "",
+      href: "https://www.hackerrank.com/certificates/e55d912f1b03",
+      logoUrl: "/logos/hackerrank.png",
+      description: "",
     },
   ],
 
-  testimonials: [] as { quote: string; author: string }[],
+  testimonials: [
+    {
+      quote:
+        "I worked with Yash Gupta at SG as his tech lead, and I noticed his ability to quickly grasp new concepts and adapt to challenges. He is a fast learner with strong analytical skills and shows great potential to excel in any role he takes on. Yash’s dedication and enthusiasm made him a valuable asset to my team, and I’m confident he will continue to achieve great things in his career.",
+      author: "Smaël Tanrhori, Tech Lead at Société Générale",
+    },
+    {
+      quote:
+        "I had the pleasure of mentoring Yash on the crucial project. He joined as a new grad but surprised us with his ability to ramp up so quickly on a complex codebase. Yash stands out as an Engineer who possesses great tech skills backed by the hunger to deep dive on even complex issues. His problem-solving ability combined with his organizational skills make him a great Software Engineer who can own an Engineering Project from requirements to production.",
+      author: "Rahul Dutt Sharma, Principal Engineer at Monotype Solutions",
+    },
+    {
+      quote:
+        "I had the pleasure of working with Yash Gupta when he joined my team for apprenticeship, and I wholeheartedly recommend him for his outstanding contributions and growth. Yash played a key role in the iReport Tool project, where he skillfully configured an Apache reverse proxy server, seamlessly integrating it with Duo SSO using OAuth 2.0 for secure user authentication. He also set up a lab environment and infra to host a local instance on a Linux Ubuntu Server and implemented metrics visualization using Java, while enhancing Python scripts to pull data from platforms like Jira, Cdets, and Git. Yash’s technical acumen, honed through CCNA, Python, and Java Full Stack Development training, was matched by his professionalism, adaptability, and teamwork, evident in his completion of all the trainings and courses like Emotional Intelligence at Work and Developing Personal Leadership. He demonstrated exceptional social intelligence as the work assignments required him to work with partner and cross geographical teams. Yash’s positive attitude and ability to deliver results make him a valuable asset to any team.",
+      author: "Sayed Raza Ali Quadri, Software Engineering Manager at Cisco Systems",
+    },
+  ],
 
   hackathons: [],
 } as const;
